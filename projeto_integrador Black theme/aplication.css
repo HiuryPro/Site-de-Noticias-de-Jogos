@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    list-style:none;
+    }
+html{ 
+    --hover: #DB1F26;
+    --bb: url(img/trans-logo-light.png);
+    --br:url(img/lampas.png);
+    --boy: url(img/beyblade.png);
+    --bg-head:#F7F7F7;
+    --bg: #D2E5E2;
+    --col: #D2E5E2;
+    --tet:black;
+  }
+ 
+.dark-mode{
+    --hover: #22E1DB;
+    --bb: url(img/trans-logo-black.png);
+    --br:url(img/lamp.png);
+    --boy: url(img/blue.png);
+    --bg-head:#222;
+    --bg: black;
+    --col: #333333;
+    --tet:white;
+}
+body{
+    background-color:var(--col);
+
+}
+.fundo{
+    background-image: url(fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.kratos img{
+    width: 56%;
+    height: auto;
+}
+header{
+    background-color:var(--bg-head);
+    width: 100%;
+}
+
+header ul li a{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+font-size: 1.3em;
+font-weight: bold;
+color: gray;
+text-decoration: none;
+
+}
+header ul li a:hover{
+    background-color: #6F9398;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.container h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.container h2{
+    padding-top: 0;
+    margin-top: 0;
+}
+footer{
+    padding-bottom: 10px;
+    background-color: var(--bg-head);
+    
+}
+footer h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer p{
+    color:var(--tet) !important;
+}
+.container h3{
+    padding: 25px;
+}
+.container p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.borda{
+    padding-top: 12px;
+}
+.espaco{
+    padding-bottom: 80px;
+}
+.mario{
+    width: 300px;
+}
+.drop{
+    padding-top: 50px;
+}
+.pc{
+    background-color: grey;
+}
+
+#logo{
+    background-image: var(--bb);
+    background-size:cover;
+    width: 15em;
+    height: 5.7em;
+
+}
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+.bi-brightness-high-fill{
+    color:yellow !important;
+}
+
+.bi-moon-stars-fill{
+    color:yellow !important;
+}
+.subir{
+
+    padding-bottom: 30px;
+}
+
+p{
+    color: var(--tet);
+}
+section h1{
+    color: var(--tet); 
+}
+section h3{
+
+    color: var(--tet);
+}
+
+#black{
+    padding-left: 20px;
+    padding-top: 10px;
+}

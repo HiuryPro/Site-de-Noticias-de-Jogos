@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#18554c;
+
+}
+.fundo{
+    background-image: url(fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.logo a{
+    width: 120px;
+    height: auto;
+}
+.kratos img{
+    width: 56%;
+    height: auto;
+}
+header{
+    background-color:#D2E5E2;
+    width: 100%;
+}
+header img{
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+    padding-left: 5%;
+    float: left;
+    padding-top: 1%;
+    
+}
+header h1{
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 20px;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+header h2{
+    font-family: fantasy;
+    margin-left: 19%;
+    padding-top: 0%;
+    margin-top: 0%;
+    color: gray;
+    padding-bottom: 5%;
+}
+header ul{
+    float: right;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+header ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+    font-size: 18px;
+    padding: 12px;
+
+}
+header ul li a:hover{
+    background-color: #6F9398;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.container h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.container h2{
+    padding-top: 0;
+    margin-top: 0;
+}
+.container{
+    width: 1024px;
+    margin: auto;
+}
+footer{
+    background-color: gray;
+}
+footer h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer p{
+    color: white;
+}
+.container h3{
+    padding: 25px;
+}
+.container p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.borda{
+    padding-top: 12px;
+}
+.espaco{
+    padding-right: 20%;
+    padding-bottom: 80px;
+}
+.mario{
+    width: 300px;
+    height: auto;
+    float: right;
+}
+.baixo{
+    padding-top: 40px;
+}
+.pc{
+    background-color: grey;
+}
